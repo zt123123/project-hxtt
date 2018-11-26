@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>选择邀请模板</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,//设备宽度
+                rem = 100, //1rem代表100px
+                desW = 750, //设计稿宽度
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if (clientWidth >= desW) {
+                        docEl.style.fontSize = rem + "px";
+                    } else {
+                        docEl.style.fontSize = rem * (clientWidth / desW) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+
+    <style>
+        @media (min-width: 320px) {
+            html {
+                font-size: 42.6667px;
+            }
+        }
+
+        @media (min-width: 360px) {
+            html {
+                font-size: 48px;
+            }
+        }
+
+        @media (min-width: 375px) {
+            html {
+                font-size: 50px;
+            }
+        }
+
+        @media (min-width: 384px) {
+            html {
+                font-size: 51.2px;
+            }
+        }
+
+        @media (min-width: 414px) {
+            html {
+                font-size: 55.2px;
+            }
+        }
+
+        @media (min-width: 448px) {
+            html {
+                font-size: 59.7333px;
+            }
+        }
+
+        @media (min-width: 480px) {
+            html {
+                font-size: 48px;
+            }
+        }
+
+        @media (min-width: 512px) {
+            html {
+                font-size: 68.2667px;
+            }
+        }
+
+        @media (min-width: 544px) {
+            html {
+                font-size: 72.5333px;
+            }
+        }
+
+        @media (min-width: 576px) {
+            html {
+                font-size: 76.8px;
+            }
+        }
+
+        @media (min-width: 608px) {
+            html {
+                font-size: 81.0667px;
+            }
+        }
+
+        @media (min-width: 640px) {
+            html {
+                font-size: 85.3333px;
+            }
+        }
+
+        @media (min-width: 750px) {
+            html {
+                font-size: 100px;
+            }
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgba(235, 235, 235, 1) 0% 0% / 100% 100%;
+            height: 100%;
+        }
+
+        #header img {
+            width: 100%;
+        }
+
+        .swiper-container {
+            width: 100%;
+            perspective: 1200px;
+            -webkit-perspective: 1200px;
+            -moz-perspective: 1200px;
+        }
+
+        .swiper-wrapper {
+            margin-top: 0.42rem;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            width: 80%;
+            transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
+        }
+
+        .swiper-slide .main-img {
+            width: 4.79rem;
+            height: 8.54rem;
+            margin: 0px auto;
+            display: block;
+            border: 0.14rem solid #fff;
+        }
+
+        .invite_btn {
+            margin: 0 auto;
+            text-align: center;
+            width: 3.61rem;
+            height: 0.90rem;
+            line-height: 0.90rem;
+            background: rgba(248, 100, 66, 1);
+            border-radius: 0.45rem;
+
+            font-size: 0.31rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .theme-name {
+            margin-top: 0.23rem;
+            margin-bottom: 0.69rem;
+            font-size: 0.29rem;
+            font-weight: 400;
+            color: rgba(41, 41, 41, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="main-img" src="http://toutiaoimage.bj.bcebos.com/share/1029hxtt.png">
+                <div class="theme-name">《橙红时代》</div>
+            </div>
+            <!--             <div class="swiper-slide">
+                <img class="main-img" src="./img/webwxgetmsgimg.jpg">
+                <div class="theme-name">《橙红时代》</div>
+            </div>
+            <div class="swiper-slide">
+                <img class="main-img" src="./img/webwxgetmsgimg.jpg">
+                <div class="theme-name">《橙红时代》</div>
+            </div>
+            <div class="swiper-slide">
+                <img class="main-img" src="./img/webwxgetmsgimg.jpg">
+                <div class="theme-name">《橙红时代》</div>
+            </div>
+            <div class="swiper-slide">
+                <img class="main-img" src="./img/webwxgetmsgimg.jpg">
+                <div class="theme-name">《橙红时代》</div>
+            </div>
+            <div class="swiper-slide">
+                <img class="main-img" src="./img/webwxgetmsgimg.jpg">
+                <div class="theme-name">《橙红时代》</div>
+            </div> -->
+        </div>
+    </div>
+    <div class="swiper-pagination" id="pagination"></div>
+    <div id="inviteBtn" class="invite_btn">立即邀请</div>
+    <script src="./js/swiper.min.js"></script>
+
+    <script>
+        var u = navigator.userAgent, app = navigator.appVersion;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        console.log('是否是Android：'+isAndroid);
+        console.log('是否是iOS：'+isiOS);
+
+        var mySwiper = new Swiper(".swiper-container", {
+            slidesPerView: "auto",
+            centeredSlides: !0,
+            watchSlidesProgress: !0,
+            pagination: false,
+            onProgress: function (a) {
+                var b, c, d;
+                for (b = 0; b < a.slides.length; b++)
+                    c = a.slides[b],
+                        d = c.progress,
+                        scale = 1 - Math.min(Math.abs(.2 * d), 1),
+                        es = c.style,
+                        es.opacity = 1 - Math.min(Math.abs(d / 2), 1),
+                        es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = "translate3d(0px,0," + -Math.abs(150 * d) + "px)"
+            },
+            onSetTransition: function (a, b) {
+                for (var c = 0; c < a.slides.length; c++)
+                    es = a.slides[c].style,
+                        es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = b + "ms"
+            }
+        });
+
+        var inviteBtn = document.getElementById("inviteBtn");
+
+        inviteBtn.addEventListener("click", function () {
+            var imgUrl = document.querySelector(".swiper-slide-active .main-img").getAttribute("src");
+            if(isAndroid){
+                if (window.android && typeof (window.android.share) == "function") {
+                    console.log(imgUrl)
+                    window.android.share(imgUrl);
+                } else {
+                    alert("没有android.share方法");
+                }
+            }
+            if(isiOS){
+              window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.share && window.webkit.messageHandlers.share.postMessage(imgUrl);
+            }
+        })
+    </script>
+</body>
+
+</html>
